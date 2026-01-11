@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 80vh;
+    align-items: center;
+}
+
+.interactives {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    min-width: 800px;
+}
+
+.canvas {
+    display: flex;
+    border: 5px solid black;
+    min-height: 400px;
+    min-width: 400px;
+    flex-wrap: wrap;
+}
+
+
+.canvas div {
+    width: 25px;
+    height: 25px;
+    box-sizing: border-box;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    flex: 1 0 0;
+}
+
+.spacing {
+    flex: 1 0 0;
+}
+
