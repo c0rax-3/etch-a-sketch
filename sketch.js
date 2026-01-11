@@ -18,8 +18,8 @@ for (let i = 0; i < gridSize; i++) {
 const clearBtn = document.querySelector(".clear");
 
 clearBtn.addEventListener("click", () => {
-  const allSquares = canvas.querySelectorAll("div");
-  allSquares.forEach((square) => {
-    square.style.backgroundColor = "white";
+  const allBoxes = canvas.querySelectorAll(".box");
+  allBoxes.forEach((box) => {
+    box.style.backgroundColor = "transparent";
   });
 });
