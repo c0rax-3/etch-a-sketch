@@ -18,14 +18,16 @@
     border: 5px solid black;
     min-height: 400px;
     min-width: 400px;
-    flex-wrap: wrap;
 }
 
+.canvas .column {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
 
-.canvas div {
-    width: 25px;
-    height: 25px;
-    box-sizing: border-box;
+.box {
+    flex-grow: 1;
 }
 
 .buttons {
